@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Vista.VistaGraficoAgua"
+    android:background="#ADD8E6">
+
+    <!--line graph view where we will
+        be displaying our data-->
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/idGraphView"
+        android:layout_width="match_parent"
+        android:layout_height="206dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="158dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="527dp"
+        android:background="#838383" />
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/idGraphPaseoView"
+        android:layout_width="match_parent"
+        android:background="#838383"
+        android:layout_height="220dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="373dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="298dp" />
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/idGraphComidaView"
+        android:layout_width="match_parent"
+        android:layout_height="219dp"
+        android:background="#838383"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="616dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="56dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="159dp"
+        android:layout_height="69dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="23dp"
+        app:srcCompat="@drawable/petlogo" />
+
+</RelativeLayout>

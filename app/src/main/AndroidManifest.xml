@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+
+
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/aplicationicon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PetHealth"
+        tools:targetApi="31">
+
+
+        <activity
+            android:name=".Controlador.MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.PetHealth">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Vista.Mostrar_Mascotas" />
+        <activity android:name=".Vista.Login" />
+        <activity android:name=".Vista.Register" />
+        <activity android:name=".Vista.RegistrarMascota" />
+        <activity android:name=".Vista.VistaFichaMascota" />
+        <activity android:name=".Vista.VistaGraficoAgua" />
+        <activity android:name=".Vista.CrearEventoVista" />
+
+
+
+
+        <!-- MAKE ALARMS RESTART ON REBOOT -->
+
+
+    </application>
+
+</manifest>

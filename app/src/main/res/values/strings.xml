@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PetHealth</string>
+    <string name="changed_to">alarma cambiadaa las %s</string>
+    <string-array name="Mascotas">
+        <item>Perro</item>
+        <item>Gato</item>
+        <item>Conejo</item>
+    </string-array>
+
+
+
+
+        <string name="web_client_id">371636222892-nq2b80ra60ta2gn32stu9stf2ifjsmr6.apps.googleusercontent.com</string>
+
+
+
+</resources>

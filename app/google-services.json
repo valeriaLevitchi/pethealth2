@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "371636222892",
+    "firebase_url": "https://pethalth2610-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "pethalth2610",
+    "storage_bucket": "pethalth2610.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:371636222892:android:c754967ea3c1f1237e5809",
+        "android_client_info": {
+          "package_name": "com.valeria.pethealth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrA0UzjotG84YKeuzYad3m25sbLY3RJ-s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
